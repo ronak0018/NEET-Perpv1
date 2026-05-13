@@ -22,6 +22,11 @@ export default function Home() {
           <h3>Study Notes</h3>
           <p>Browse and create high-yield revision notes</p>
         </Link>
+        <Link to="/study" className="home-card">
+          <div className="icon">📚</div>
+          <h3>Detailed Study</h3>
+          <p>Comprehensive chapter-wise master notes for deep learning</p>
+        </Link>
       </div>
     </div>
   );

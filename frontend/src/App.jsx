@@ -6,6 +6,7 @@ import Notes from "./pages/Notes.jsx";
 import NoteDetail from "./pages/NoteDetail.jsx";
 import NoteForm from "./pages/NoteForm.jsx";
 import Exam from "./pages/Exam.jsx";
+import DetailedStudy from "./pages/DetailedStudy.jsx";
 import "./App.css";
 
 function Navbar() {
@@ -21,6 +22,7 @@ function Navbar() {
         <Link to="/quiz" className={isActive("/quiz")}>Quiz</Link>
         <Link to="/exam" className={isActive("/exam")}>Exam</Link>
         <Link to="/notes" className={isActive("/notes")}>Notes</Link>
+        <Link to="/study" className={isActive("/study")}>Study</Link>
       </div>
     </nav>
   );
@@ -40,6 +42,7 @@ function App() {
             <Route path="/notes/new" element={<NoteForm />} />
             <Route path="/notes/:id" element={<NoteDetail />} />
             <Route path="/notes/:id/edit" element={<NoteForm />} />
+            <Route path="/study" element={<DetailedStudy />} />
           </Routes>
         </div>
       </div>

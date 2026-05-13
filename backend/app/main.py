@@ -4,6 +4,7 @@ from app.database import connect_db, close_db
 from app.routes.questions import router as questions_router
 from app.routes.notes import router as notes_router
 from app.routes.exam import router as exam_router
+from app.routes.detailed_study import router as detailed_study_router
 
 app = FastAPI(title="NEET PG Prep", version="1.0.0")
 
@@ -39,3 +40,4 @@ async def health():
 app.include_router(questions_router)
 app.include_router(notes_router)
 app.include_router(exam_router)
+app.include_router(detailed_study_router)

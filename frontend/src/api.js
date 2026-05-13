@@ -32,3 +32,8 @@ export const getExamPaperSets = () => API.get("/exam/paper-sets");
 export const startExam = (data) => API.post("/exam/start", data);
 export const submitExam = (data) => API.post("/exam/submit", data);
 export const getExamHistory = () => API.get("/exam/history");
+
+// Detailed Study
+export const getDetailedStudySubjects = () => API.get("/detailed-study/subjects");
+export const getDetailedStudyContent = (subject) => API.get(`/detailed-study/subject/${encodeURIComponent(subject)}`);
+export const searchDetailedStudy = (q) => API.get("/detailed-study/search", { params: { q } });
