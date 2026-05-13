@@ -4,6 +4,11 @@ const API = axios.create({
   baseURL: import.meta.env.VITE_API_URL || "/api",
 });
 
+// Keep-alive ping every 8 minutes to prevent Render spin-down
+setInterval(() => {
+  API.get("/health").catch(() => {});
+}, 8 * 60 * 1000);
+
 // Questions
 export const getSubjects = () => API.get("/questions/subjects");
 export const getTopics = (subject) => API.get(`/questions/topics/${subject}`);

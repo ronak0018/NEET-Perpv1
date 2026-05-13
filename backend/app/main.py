@@ -31,6 +31,11 @@ async def root():
     return {"message": "NEET PG Prep API"}
 
 
+@app.get("/api/health")
+async def health():
+    return {"status": "alive"}
+
+
 app.include_router(questions_router)
 app.include_router(notes_router)
 app.include_router(exam_router)
