@@ -25,6 +25,7 @@ export const createNote = (data) => API.post("/notes/", data);
 export const updateNote = (id, data) => API.put(`/notes/${id}`, data);
 export const deleteNote = (id) => API.delete(`/notes/${id}`);
 export const getNoteSubjects = () => API.get("/notes/subjects");
+export const getNoteChapters = (subject) => API.get(`/notes/chapters/${subject}`);
 
 // Exam
 export const getExamPaperSets = () => API.get("/exam/paper-sets");

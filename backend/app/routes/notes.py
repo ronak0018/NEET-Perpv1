@@ -11,9 +11,12 @@ def note_helper(n) -> dict:
     return {
         "id": str(n["_id"]),
         "subject": n["subject"],
-        "topic": n["topic"],
-        "title": n["title"],
-        "content": n["content"],
+        "chapter": n.get("chapter", ""),
+        "full_notes": n.get("full_notes", ""),
+        "mnemonics": n.get("mnemonics", ""),
+        "clinical_concepts": n.get("clinical_concepts", ""),
+        "mcqs": n.get("mcqs", ""),
+        "rapid_revision": n.get("rapid_revision", ""),
         "created_at": n["created_at"],
         "updated_at": n.get("updated_at", n["created_at"]),
     }
@@ -35,8 +38,9 @@ async def create_note(note: NoteCreate):
 async def get_notes(
     subject: str | None = None,
     topic: str | None = None,
+    chapter: str | None = None,
     search: str | None = None,
-    limit: int = Query(default=20, le=100),
+    limit: int = Query(default=50, le=200),
     skip: int = 0,
 ):
     db = get_db()
@@ -44,11 +48,13 @@ async def get_notes(
     if subject:
         query["subject"] = subject
     if topic:
-        query["topic"] = topic
+        query["chapter"] = topic
+    if chapter:
+        query["chapter"] = chapter
     if search:
         query["$or"] = [
-            {"title": {"$regex": search, "$options": "i"}},
-            {"content": {"$regex": search, "$options": "i"}},
+            {"chapter": {"$regex": search, "$options": "i"}},
+            {"full_notes": {"$regex": search, "$options": "i"}},
         ]
 
     cursor = db.notes.find(query).sort("updated_at", -1).skip(skip).limit(limit)
@@ -63,6 +69,13 @@ async def get_note_subjects():
     db = get_db()
     subjects = await db.notes.distinct("subject")
     return subjects
+
+
+@router.get("/chapters/{subject}")
+async def get_note_chapters(subject: str):
+    db = get_db()
+    chapters = await db.notes.distinct("chapter", {"subject": subject})
+    return chapters
 
 
 @router.get("/{note_id}", response_model=NoteResponse)

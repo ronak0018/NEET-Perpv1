@@ -20,16 +20,22 @@ class QuestionResponse(QuestionCreate):
 
 class NoteCreate(BaseModel):
     subject: str
-    topic: str
-    title: str
-    content: str
+    chapter: str
+    full_notes: str = ""
+    mnemonics: str = ""
+    clinical_concepts: str = ""
+    mcqs: str = ""
+    rapid_revision: str = ""
 
 
 class NoteUpdate(BaseModel):
     subject: Optional[str] = None
-    topic: Optional[str] = None
-    title: Optional[str] = None
-    content: Optional[str] = None
+    chapter: Optional[str] = None
+    full_notes: Optional[str] = None
+    mnemonics: Optional[str] = None
+    clinical_concepts: Optional[str] = None
+    mcqs: Optional[str] = None
+    rapid_revision: Optional[str] = None
 
 
 class NoteResponse(NoteCreate):

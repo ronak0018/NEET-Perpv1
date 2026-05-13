@@ -90,16 +90,12 @@ export default function Notes() {
             <div key={note.id} className="note-card">
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "start" }}>
                 <Link to={`/notes/${note.id}`} style={{ textDecoration: "none", color: "inherit", flex: 1 }}>
-                  <h3>{note.title}</h3>
+                  <h3>{note.chapter}</h3>
                   <div className="note-meta">
                     <span className="tag">{note.subject}</span>
-                    <span className="tag">{note.topic}</span>
                   </div>
                 </Link>
                 <div style={{ display: "flex", gap: "0.4rem" }}>
-                  <Link to={`/notes/${note.id}/edit`} className="btn btn-secondary" style={{ padding: "0.3rem 0.7rem", fontSize: "0.85rem" }}>
-                    Edit
-                  </Link>
                   <button
                     className="btn btn-danger"
                     style={{ padding: "0.3rem 0.7rem", fontSize: "0.85rem" }}
