@@ -50,7 +50,7 @@ export default function Notes() {
   return (
     <div>
       <div className="notes-header">
-        <h2>Study Notes</h2>
+        <h2>Short Notes</h2>
         <Link to="/notes/new" className="btn btn-primary">+ New Note</Link>
       </div>
 
@@ -95,15 +95,6 @@ export default function Notes() {
                     <span className="tag">{note.subject}</span>
                   </div>
                 </Link>
-                <div style={{ display: "flex", gap: "0.4rem" }}>
-                  <button
-                    className="btn btn-danger"
-                    style={{ padding: "0.3rem 0.7rem", fontSize: "0.85rem" }}
-                    onClick={() => handleDelete(note.id)}
-                  >
-                    Delete
-                  </button>
-                </div>
               </div>
             </div>
           ))}

@@ -37,3 +37,11 @@ export const getExamHistory = () => API.get("/exam/history");
 export const getDetailedStudySubjects = () => API.get("/detailed-study/subjects");
 export const getDetailedStudyContent = (subject) => API.get(`/detailed-study/subject/${encodeURIComponent(subject)}`);
 export const searchDetailedStudy = (q) => API.get("/detailed-study/search", { params: { q } });
+
+// Master Notes
+export const getMasterNotesSubjects = () => API.get("/master-notes/subjects");
+export const getMasterNoteContent = (subject) => API.get(`/master-notes/subject/${encodeURIComponent(subject)}`);
+
+// User Activity Tracking
+export const trackActivity = (action, detail = "", username = "") =>
+  API.post("/admin/track", { action, detail, username: username || localStorage.getItem("neetpg_user") || "" }).catch(() => {});

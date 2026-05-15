@@ -134,6 +134,7 @@ export default function DetailedStudy() {
             <div className="ds-content-body">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
+                children={content}
                 components={{
                   h1: ({ children, ...props }) => {
                     const id = String(children).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+$/, "");
