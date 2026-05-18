@@ -25,11 +25,30 @@ function Navbar({ user, onLogout }) {
       </Link>
       <div className="navbar-links">
         <Link to="/quiz" className={isActive("/quiz")}>Quiz</Link>
-        <Link to="/predicted-quiz" className={isActive("/predicted-quiz")}>Predicted Quiz</Link>
         <Link to="/exam" className={isActive("/exam")}>Exam</Link>
         <Link to="/notes" className={isActive("/notes")}>Notes</Link>
         <Link to="/master-notes" className={isActive("/master-notes")}>Master Notes</Link>
         <Link to="/study" className={isActive("/study")}>Study</Link>
+      </div>
+      <div className="navbar-user">
+        <span className="navbar-username">👤 {user}</span>
+        <button className="navbar-logout" onClick={onLogout}>Logout</button>
+      </div>
+    </nav>
+  );
+}
+
+function ExamOnlyNavbar({ user, onLogout }) {
+  const location = useLocation();
+  const isActive = (path) => location.pathname === path ? "active" : "";
+
+  return (
+    <nav className="navbar">
+      <Link to="/" className="navbar-brand">
+        🩺 NEET UG Prep
+      </Link>
+      <div className="navbar-links">
+        <Link to="/guess-questions" className={isActive("/guess-questions") || location.pathname === "/" ? "active" : ""}>Guess Questions</Link>
       </div>
       <div className="navbar-user">
         <span className="navbar-username">👤 {user}</span>
@@ -74,17 +93,13 @@ function App() {
     return (
       <BrowserRouter>
         <div className="app">
-          <nav className="navbar">
-            <span className="navbar-brand">🩺 NEET PG Exam</span>
-            <div className="navbar-user">
-              <span className="navbar-username">👤 {user}</span>
-              <button className="navbar-logout" onClick={handleLogout}>Logout</button>
-            </div>
-          </nav>
+          <ExamOnlyNavbar user={user} onLogout={handleLogout} />
           <PageTracker />
           <div className="container">
             <Routes>
-              <Route path="*" element={<Exam />} />
+              <Route path="/" element={<PredictedQuiz />} />
+              <Route path="/guess-questions" element={<PredictedQuiz />} />
+              <Route path="*" element={<PredictedQuiz />} />
             </Routes>
           </div>
         </div>
@@ -101,7 +116,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/quiz" element={<Quiz />} />
-            <Route path="/predicted-quiz" element={<PredictedQuiz />} />
             <Route path="/exam" element={<Exam />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/notes/new" element={<NoteForm />} />
