@@ -45,3 +45,9 @@ export const getMasterNoteContent = (subject) => API.get(`/master-notes/subject/
 // User Activity Tracking
 export const trackActivity = (action, detail = "", username = "") =>
   API.post("/admin/track", { action, detail, username: username || localStorage.getItem("neetpg_user") || "" }).catch(() => {});
+
+// Predicted Quiz (NEET UG)
+export const getPredictedQuizSets = () => API.get("/predicted-quiz/sets");
+export const getPredictedQuizInfo = (setId) => API.get("/predicted-quiz/info", { params: { set_id: setId } });
+export const getPredictedQuizQuestions = (params) => API.get("/predicted-quiz/questions", { params });
+export const submitPredictedQuiz = (data) => API.post("/predicted-quiz/submit", data);

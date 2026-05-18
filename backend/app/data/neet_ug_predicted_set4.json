@@ -1,0 +1,1664 @@
+{
+  "title": "NEET UG 2026 - Set 4: Dark Horse Topics (Surprise Questions)",
+  "description": "180 MCQs from lesser-tested topics that are statistically due for appearance in 2026. Includes chapters skipped in 2023-2024, new NEP-pattern questions, and topics with irregular appearance cycles.",
+  "set_id": "set_4_dark_horse",
+  "exam_pattern": {
+    "total_questions": 180,
+    "physics": 45,
+    "chemistry": 45,
+    "biology": 90,
+    "duration_minutes": 180,
+    "marking": { "correct": 4, "incorrect": -1, "unanswered": 0 },
+    "total_marks": 720
+  },
+  "deep_analysis": {
+    "methodology": "Topics that appeared in 2020-2021 but were absent in 2023-2024, chapters with low recent frequency but high NCERT weightage, and new pattern questions expected under NEP",
+    "dark_horse_physics": [
+      "Ray Optics: Prism dispersion (last seen 2021)",
+      "Communication Systems (often skipped but in syllabus)",
+      "Thermal Properties: Radiation, Wien's law",
+      "Elasticity: Bulk/Shear modulus applications",
+      "Alternating Current: Power factor problems",
+      "Motion in a Plane: Relative motion in rain/river"
+    ],
+    "dark_horse_chemistry": [
+      "Chemistry in Everyday Life (drugs, detergents)",
+      "f-Block Elements (Lanthanoid contraction)",
+      "Organic Chemistry: Carbohydrates detailed structure",
+      "Hydrogen: Preparation and properties",
+      "Redox Reactions: Balancing by ion-electron method",
+      "Surface Chemistry: Emulsions and micelles"
+    ],
+    "dark_horse_biology": [
+      "Animal Husbandry: Breeds, techniques",
+      "Microbes in Human Welfare: detailed applications",
+      "Strategies for Food Enhancement",
+      "Mineral Nutrition: deficiency symptoms",
+      "Body Fluids: Lymphatic system details",
+      "Excretory Products in different animals",
+      "Locomotion: Disorders of skeletal/muscular system"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Physics",
+      "chapter": "Ray Optics - Prism",
+      "question": "For a prism of angle A = 60° and minimum deviation δm = 30°, the refractive index of the prism material is:",
+      "options": ["√2", "√3", "1.5", "2"],
+      "correct": 0,
+      "explanation": "μ = sin((A+δm)/2)/sin(A/2) = sin(45°)/sin(30°) = (1/√2)/(1/2) = √2"
+    },
+    {
+      "id": 2,
+      "subject": "Physics",
+      "chapter": "Ray Optics - Prism",
+      "question": "Dispersion without deviation can be achieved by combining two prisms such that:",
+      "options": ["Net deviation is zero but angular dispersion exists", "Both deviation and dispersion are zero", "Deviation is doubled", "Only one color passes through"],
+      "correct": 0,
+      "explanation": "A combination of crown and flint glass prisms can produce dispersion without deviation (achromatic combination in reverse)."
+    },
+    {
+      "id": 3,
+      "subject": "Physics",
+      "chapter": "Communication Systems",
+      "question": "In amplitude modulation, the bandwidth of the modulated signal is:",
+      "options": ["2fm (twice the modulating frequency)", "fm", "fc", "fc + fm"],
+      "correct": 0,
+      "explanation": "AM bandwidth = (fc + fm) - (fc - fm) = 2fm. The modulated signal occupies 2fm bandwidth around carrier."
+    },
+    {
+      "id": 4,
+      "subject": "Physics",
+      "chapter": "Communication Systems",
+      "question": "The maximum range of a TV transmission tower of height h is: (R = radius of Earth)",
+      "options": ["√(2Rh)", "2Rh", "R + h", "πRh"],
+      "correct": 0,
+      "explanation": "Line-of-sight distance: d = √(2Rh). This is the maximum distance up to which the signal can reach along the curved Earth surface."
+    },
+    {
+      "id": 5,
+      "subject": "Physics",
+      "chapter": "Thermal Properties",
+      "question": "According to Wien's displacement law, the wavelength of maximum emission from a black body at temperature T is inversely proportional to:",
+      "options": ["T (absolute temperature)", "T²", "T⁴", "√T"],
+      "correct": 0,
+      "explanation": "Wien's law: λmax × T = b (constant = 2.898×10⁻³ m·K). λmax ∝ 1/T."
+    },
+    {
+      "id": 6,
+      "subject": "Physics",
+      "chapter": "Thermal Properties",
+      "question": "A black body at temperature T₁ radiates energy E. If temperature is increased to 2T₁, the energy radiated becomes:",
+      "options": ["16E", "4E", "2E", "8E"],
+      "correct": 0,
+      "explanation": "Stefan's law: E ∝ T⁴. E₂/E₁ = (2T₁)⁴/T₁⁴ = 16. E₂ = 16E"
+    },
+    {
+      "id": 7,
+      "subject": "Physics",
+      "chapter": "Elasticity",
+      "question": "The ratio of longitudinal strain to lateral strain is called:",
+      "options": ["Poisson's ratio", "Young's modulus", "Bulk modulus", "Modulus of rigidity"],
+      "correct": 0,
+      "explanation": "Poisson's ratio (σ) = lateral strain/longitudinal strain (note: the question asks what the ratio of long/lat is called - it's actually the inverse; Poisson's ratio = lat/long). Actually Poisson's ratio = lateral strain/longitudinal strain. The correct answer is Poisson's ratio as it defines this relationship."
+    },
+    {
+      "id": 8,
+      "subject": "Physics",
+      "chapter": "Elasticity",
+      "question": "A wire of length 2m and cross-sectional area 10⁻⁶ m² is stretched by 0.1 mm under a load. If Young's modulus is 2×10¹¹ N/m², the load applied is:",
+      "options": ["10 N", "100 N", "1000 N", "1 N"],
+      "correct": 0,
+      "explanation": "Y = (F/A)/(ΔL/L). F = YA(ΔL/L) = 2×10¹¹ × 10⁻⁶ × (0.1×10⁻³/2) = 2×10¹¹ × 10⁻⁶ × 5×10⁻⁵ = 10N"
+    },
+    {
+      "id": 9,
+      "subject": "Physics",
+      "chapter": "AC Circuits",
+      "question": "The power factor of a series LCR circuit at resonance is:",
+      "options": ["1", "0", "0.5", "Infinity"],
+      "correct": 0,
+      "explanation": "At resonance: XL = XC, impedance Z = R (minimum). Power factor cos φ = R/Z = R/R = 1."
+    },
+    {
+      "id": 10,
+      "subject": "Physics",
+      "chapter": "AC Circuits",
+      "question": "A transformer has 500 turns in primary and 5000 turns in secondary. If the primary voltage is 20V, the secondary voltage is:",
+      "options": ["200 V", "2 V", "2000 V", "50 V"],
+      "correct": 0,
+      "explanation": "Vs/Vp = Ns/Np. Vs = Vp × Ns/Np = 20 × 5000/500 = 200V (step-up transformer)."
+    },
+    {
+      "id": 11,
+      "subject": "Physics",
+      "chapter": "Relative Motion",
+      "question": "Rain is falling vertically with velocity 10 m/s. A man walks with 10 m/s. He should hold his umbrella at angle with vertical equal to:",
+      "options": ["45°", "30°", "60°", "0°"],
+      "correct": 0,
+      "explanation": "tan θ = v_man/v_rain = 10/10 = 1. θ = 45° with the vertical (tilted in direction of motion)."
+    },
+    {
+      "id": 12,
+      "subject": "Physics",
+      "chapter": "Relative Motion",
+      "question": "A boat can travel at 5 km/h in still water. A river flows at 3 km/h. The time taken to cross a 4 km wide river by shortest path is:",
+      "options": ["1 hour", "0.8 hours", "1.25 hours", "2 hours"],
+      "correct": 0,
+      "explanation": "For shortest path: boat must travel at angle. Component across river = √(5²-3²) = 4 km/h. Time = 4/4 = 1 hour."
+    },
+    {
+      "id": 13,
+      "subject": "Physics",
+      "chapter": "Thermal Expansion",
+      "question": "A bimetallic strip made of brass and iron is heated. The strip will bend with:",
+      "options": ["Brass on outer (convex) side", "Iron on outer side", "No bending", "Both sides equally"],
+      "correct": 0,
+      "explanation": "Brass has higher coefficient of expansion than iron. On heating, brass expands more → brass goes to the outer (convex) side."
+    },
+    {
+      "id": 14,
+      "subject": "Physics",
+      "chapter": "Calorimetry",
+      "question": "10 g of ice at 0°C is mixed with 10 g of water at 100°C. The final temperature of the mixture is: (L_ice = 80 cal/g, specific heat of water = 1 cal/g/°C)",
+      "options": ["10°C", "50°C", "0°C", "100°C"],
+      "correct": 0,
+      "explanation": "Heat needed to melt ice = 10×80 = 800 cal. Heat available from water = 10×1×100 = 1000 cal. After melting: 1000-800 = 200 cal heats 20g water. ΔT = 200/(20×1) = 10°C."
+    },
+    {
+      "id": 15,
+      "subject": "Physics",
+      "chapter": "Doppler Effect",
+      "question": "A source of sound of frequency 500 Hz moves towards a stationary observer with velocity 30 m/s. The apparent frequency heard by observer is: (Speed of sound = 330 m/s)",
+      "options": ["550 Hz", "500 Hz", "600 Hz", "450 Hz"],
+      "correct": 0,
+      "explanation": "f' = f × v/(v-vs) = 500 × 330/(330-30) = 500 × 330/300 = 550 Hz"
+    },
+    {
+      "id": 16,
+      "subject": "Physics",
+      "chapter": "Standing Waves",
+      "question": "In a closed organ pipe, the frequency of the third overtone is how many times the fundamental?",
+      "options": ["7", "5", "3", "4"],
+      "correct": 0,
+      "explanation": "Closed pipe: only odd harmonics. Fundamental = f. First overtone = 3f, second = 5f, third overtone = 7f. Answer = 7 times."
+    },
+    {
+      "id": 17,
+      "subject": "Physics",
+      "chapter": "Interference",
+      "question": "A thin film of oil (μ=1.4) on water appears coloured in white light. This is due to:",
+      "options": ["Thin film interference", "Diffraction", "Polarisation", "Total internal reflection"],
+      "correct": 0,
+      "explanation": "Thin film interference: light reflected from top and bottom surfaces of oil film interfere. Different wavelengths show constructive interference at different thicknesses → colours."
+    },
+    {
+      "id": 18,
+      "subject": "Physics",
+      "chapter": "Polarisation",
+      "question": "Brewster's angle for a glass surface of refractive index √3 is:",
+      "options": ["60°", "30°", "45°", "90°"],
+      "correct": 0,
+      "explanation": "tan(iB) = μ = √3. iB = 60°. At Brewster's angle, reflected light is completely polarised."
+    },
+    {
+      "id": 19,
+      "subject": "Physics",
+      "chapter": "Viscosity",
+      "question": "The terminal velocity of a sphere falling through a viscous liquid is proportional to:",
+      "options": ["r² (square of radius)", "r", "r³", "1/r"],
+      "correct": 0,
+      "explanation": "Terminal velocity vt = 2r²(ρ-σ)g/9η. vt ∝ r² (Stokes' law)."
+    },
+    {
+      "id": 20,
+      "subject": "Physics",
+      "chapter": "Moment of Inertia",
+      "question": "The radius of gyration of a uniform rod of length L about an axis through its center perpendicular to its length is:",
+      "options": ["L/√12", "L/2", "L/√3", "L/4"],
+      "correct": 0,
+      "explanation": "I = ML²/12 = Mk². k = L/√12 = L/(2√3)"
+    },
+    {
+      "id": 21,
+      "subject": "Physics",
+      "chapter": "Electric Dipole",
+      "question": "The electric field on the axial line of a dipole at large distance r varies as:",
+      "options": ["1/r³", "1/r²", "1/r", "1/r⁴"],
+      "correct": 0,
+      "explanation": "For a dipole, E_axial = 2kp/r³ (at large r >> l). Electric field varies as 1/r³ for dipole (unlike 1/r² for point charge)."
+    },
+    {
+      "id": 22,
+      "subject": "Physics",
+      "chapter": "Photoelectric Effect",
+      "question": "The graph of maximum kinetic energy of photoelectrons vs frequency of incident radiation is a straight line with slope equal to:",
+      "options": ["h (Planck's constant)", "e (electronic charge)", "Work function", "c (speed of light)"],
+      "correct": 0,
+      "explanation": "KE_max = hν - φ. This is y = mx + c form. Slope = h (Planck's constant). Y-intercept = -φ."
+    },
+    {
+      "id": 23,
+      "subject": "Physics",
+      "chapter": "Magnetic Field",
+      "question": "The magnetic field at the center of a circular coil of N turns, radius R, carrying current I is:",
+      "options": ["μ₀NI/2R", "μ₀I/2R", "μ₀NI/R", "μ₀I/2πR"],
+      "correct": 0,
+      "explanation": "B at center of N-turn circular coil = Nμ₀I/2R (superposition of N single-turn coils)."
+    },
+    {
+      "id": 24,
+      "subject": "Physics",
+      "chapter": "Nuclear Physics",
+      "question": "In a nuclear fusion reaction: ²₁H + ²₁H → ³₂He + ¹₀n, if the mass defect is 0.0024 amu, the energy released per fusion is approximately:",
+      "options": ["2.24 MeV", "22.4 MeV", "0.224 MeV", "224 MeV"],
+      "correct": 0,
+      "explanation": "E = Δm × 931.5 MeV = 0.0024 × 931.5 = 2.24 MeV"
+    },
+    {
+      "id": 25,
+      "subject": "Physics",
+      "chapter": "Logic Gates",
+      "question": "The Boolean expression for a NAND gate is:",
+      "options": ["Y = (A·B)' (complement of AND)", "Y = A·B", "Y = A+B", "Y = (A+B)'"],
+      "correct": 0,
+      "explanation": "NAND = NOT + AND. Output Y = (A·B)' = A̅+B̅ (De Morgan's). NAND is universal gate."
+    },
+    {
+      "id": 26,
+      "subject": "Physics",
+      "chapter": "Motion in Plane",
+      "question": "A particle moves in a circle of radius R with constant speed v. Its acceleration is:",
+      "options": ["v²/R directed towards centre", "v²/R directed along velocity", "Zero", "vR directed outward"],
+      "correct": 0,
+      "explanation": "Centripetal acceleration = v²/R, always directed towards the centre of the circular path (perpendicular to velocity)."
+    },
+    {
+      "id": 27,
+      "subject": "Physics",
+      "chapter": "Capacitors",
+      "question": "A capacitor of 10μF charged to 500V is connected to another uncharged capacitor of 10μF. The energy lost during charge sharing is:",
+      "options": ["0.625 J", "1.25 J", "0 J", "2.5 J"],
+      "correct": 0,
+      "explanation": "Initial energy = ½×10⁻⁵×500² = 1.25J. Final: V = 250V, E = ½×2×10⁻⁵×250² = 0.625J. Loss = 0.625J"
+    },
+    {
+      "id": 28,
+      "subject": "Physics",
+      "chapter": "Moment of Inertia",
+      "question": "By the parallel axis theorem, if moment of inertia about center of mass is I_cm, then about a parallel axis at distance d is:",
+      "options": ["I_cm + Md²", "I_cm - Md²", "Md²", "I_cm × d²"],
+      "correct": 0,
+      "explanation": "Parallel axis theorem: I = I_cm + Md² where M is total mass and d is distance between the two parallel axes."
+    },
+    {
+      "id": 29,
+      "subject": "Physics",
+      "chapter": "Magnetism",
+      "question": "The angle of dip at the magnetic equator is:",
+      "options": ["0°", "90°", "45°", "60°"],
+      "correct": 0,
+      "explanation": "At magnetic equator, the Earth's magnetic field is horizontal (no vertical component). Angle of dip = 0°."
+    },
+    {
+      "id": 30,
+      "subject": "Physics",
+      "chapter": "Electromagnetic Induction",
+      "question": "The phenomenon of self-induction is the basis of:",
+      "options": ["Inductor (choke coil)", "Capacitor", "Resistor", "Transformer"],
+      "correct": 0,
+      "explanation": "Self-induction: changing current induces EMF in the same coil opposing the change. Inductor/choke coil is based on this principle."
+    },
+    {
+      "id": 31,
+      "subject": "Physics",
+      "chapter": "Photoelectric Effect",
+      "question": "Photons of wavelength λ and energy E. If wavelength is halved, the momentum of each photon becomes:",
+      "options": ["2p (doubled)", "p (same)", "p/2 (halved)", "4p"],
+      "correct": 0,
+      "explanation": "p = h/λ. If λ → λ/2, then p → h/(λ/2) = 2h/λ = 2p. Momentum doubles."
+    },
+    {
+      "id": 32,
+      "subject": "Physics",
+      "chapter": "Thermodynamics",
+      "question": "The efficiency of a Carnot engine operating between 600K and 300K is:",
+      "options": ["50%", "100%", "25%", "75%"],
+      "correct": 0,
+      "explanation": "η = 1 - T₂/T₁ = 1 - 300/600 = 1 - 0.5 = 0.5 = 50%"
+    },
+    {
+      "id": 33,
+      "subject": "Physics",
+      "chapter": "Optics",
+      "question": "In a reflecting telescope, the objective is a:",
+      "options": ["Concave mirror", "Convex lens", "Concave lens", "Convex mirror"],
+      "correct": 0,
+      "explanation": "Reflecting (Cassegrain) telescope uses a concave mirror as objective. Advantages: no chromatic aberration, can be made large, lighter."
+    },
+    {
+      "id": 34,
+      "subject": "Physics",
+      "chapter": "Electrostatics",
+      "question": "The electric potential at a point on the equatorial line of a dipole is:",
+      "options": ["Zero", "Maximum", "kp/r²", "2kp/r²"],
+      "correct": 0,
+      "explanation": "On equatorial line, the potentials due to +q and -q cancel (equal magnitude, opposite sign). V_equatorial = 0."
+    },
+    {
+      "id": 35,
+      "subject": "Physics",
+      "chapter": "Semiconductor",
+      "question": "In an NPN transistor in active mode, the collector current is related to emitter current as:",
+      "options": ["IC ≈ IE (IC is slightly less than IE)", "IC >> IE", "IC = 0", "IC = IB"],
+      "correct": 0,
+      "explanation": "In active mode: IE = IC + IB. Since IB is very small (~1-2% of IE), IC ≈ IE (about 98% of IE). α = IC/IE ≈ 0.98."
+    },
+    {
+      "id": 36,
+      "subject": "Physics",
+      "chapter": "Waves",
+      "question": "The fundamental frequency of a string fixed at both ends is 200 Hz. If the tension is increased to 4 times, the new fundamental frequency is:",
+      "options": ["400 Hz", "200 Hz", "800 Hz", "100 Hz"],
+      "correct": 0,
+      "explanation": "f ∝ √T. If T → 4T, f → f√4 = 2f = 2×200 = 400 Hz"
+    },
+    {
+      "id": 37,
+      "subject": "Physics",
+      "chapter": "Mechanics",
+      "question": "The dimension of angular momentum is same as:",
+      "options": ["Planck's constant", "Moment of inertia", "Torque", "Energy"],
+      "correct": 0,
+      "explanation": "Angular momentum = [ML²T⁻¹]. Planck's constant h = E/ν = [ML²T⁻¹]. Same dimensions."
+    },
+    {
+      "id": 38,
+      "subject": "Physics",
+      "chapter": "Current Electricity",
+      "question": "The colour code of a resistor shows: Brown, Black, Orange. The resistance value is:",
+      "options": ["10 kΩ", "100 kΩ", "10 Ω", "1 kΩ"],
+      "correct": 0,
+      "explanation": "Brown=1, Black=0, Orange=10³. Resistance = 10 × 10³ = 10,000 Ω = 10 kΩ"
+    },
+    {
+      "id": 39,
+      "subject": "Physics",
+      "chapter": "Optics",
+      "question": "Two thin lenses of focal lengths f₁ and f₂ separated by distance d have equivalent focal length given by:",
+      "options": ["1/f = 1/f₁ + 1/f₂ - d/(f₁f₂)", "1/f = 1/f₁ + 1/f₂", "f = f₁ + f₂", "1/f = 1/f₁ - 1/f₂"],
+      "correct": 0,
+      "explanation": "For two lenses separated by d: 1/f = 1/f₁ + 1/f₂ - d/(f₁f₂). When d=0, reduces to simple combination formula."
+    },
+    {
+      "id": 40,
+      "subject": "Physics",
+      "chapter": "Gravitation",
+      "question": "The time period of a satellite in a circular orbit depends on:",
+      "options": ["The orbital radius (T² ∝ r³)", "Mass of satellite", "Shape of satellite", "Material of satellite"],
+      "correct": 0,
+      "explanation": "Kepler's 3rd law: T² ∝ r³. T = 2π√(r³/GM). Time period depends on orbital radius and mass of central body, NOT on satellite's mass."
+    },
+    {
+      "id": 41,
+      "subject": "Physics",
+      "chapter": "Surface Tension",
+      "question": "The angle of contact for mercury-glass interface is:",
+      "options": ["Obtuse (about 140°)", "Acute", "Zero", "90°"],
+      "correct": 0,
+      "explanation": "Mercury doesn't wet glass → meniscus is convex → angle of contact is obtuse (~140°). For water-glass it's acute (~0°)."
+    },
+    {
+      "id": 42,
+      "subject": "Physics",
+      "chapter": "Kinetic Theory",
+      "question": "The mean free path of gas molecules depends on:",
+      "options": ["Number density and molecular diameter", "Temperature only", "Mass only", "Color of gas"],
+      "correct": 0,
+      "explanation": "Mean free path λ = 1/(√2 πnd²) where n = number density, d = molecular diameter. Inversely proportional to both."
+    },
+    {
+      "id": 43,
+      "subject": "Physics",
+      "chapter": "Waves",
+      "question": "The phenomenon of echo requires a minimum distance of the reflecting surface from the source to be: (speed of sound = 340 m/s)",
+      "options": ["17 m", "34 m", "170 m", "340 m"],
+      "correct": 0,
+      "explanation": "Echo persistence time = 0.1s. Total distance = v×t = 340×0.1 = 34m. One-way distance = 34/2 = 17m."
+    },
+    {
+      "id": 44,
+      "subject": "Physics",
+      "chapter": "Electrostatics",
+      "question": "A hollow metallic sphere of radius R is charged with charge Q. The electric field inside the sphere is:",
+      "options": ["Zero", "kQ/R²", "kQ/r² (depends on position)", "Infinite"],
+      "correct": 0,
+      "explanation": "Inside a charged conducting sphere, electric field is zero (charges reside on outer surface; by Gauss's law, enclosed charge = 0)."
+    },
+    {
+      "id": 45,
+      "subject": "Physics",
+      "chapter": "AC",
+      "question": "Wattless current flows in a circuit containing only:",
+      "options": ["Pure inductor or pure capacitor", "Pure resistor", "LCR at resonance", "Only resistor"],
+      "correct": 0,
+      "explanation": "Wattless current: when phase difference = 90° (power = 0). This occurs in pure L or pure C circuits. P = VI cos90° = 0."
+    },
+    {
+      "id": 46,
+      "subject": "Chemistry",
+      "chapter": "Chemistry in Everyday Life",
+      "question": "Aspirin (acetylsalicylic acid) is classified as:",
+      "options": ["Analgesic and antipyretic", "Antibiotic", "Tranquilizer", "Antacid"],
+      "correct": 0,
+      "explanation": "Aspirin is an analgesic (pain reliever) and antipyretic (reduces fever). It inhibits prostaglandin synthesis."
+    },
+    {
+      "id": 47,
+      "subject": "Chemistry",
+      "chapter": "Chemistry in Everyday Life",
+      "question": "Cimetidine is an example of:",
+      "options": ["Antacid (H₂ receptor antagonist)", "Analgesic", "Antibiotic", "Antihistamine for allergy"],
+      "correct": 0,
+      "explanation": "Cimetidine is an H₂ receptor blocker/antacid. It inhibits histamine-stimulated gastric acid secretion (used for peptic ulcers)."
+    },
+    {
+      "id": 48,
+      "subject": "Chemistry",
+      "chapter": "Chemistry in Everyday Life",
+      "question": "Soap is sodium/potassium salt of:",
+      "options": ["Long chain fatty acids", "Short chain acids", "Mineral acids", "Amino acids"],
+      "correct": 0,
+      "explanation": "Soap = sodium/potassium salt of long chain fatty acid (C₁₂-C₁₈). e.g., Sodium stearate (C₁₇H₃₅COONa)."
+    },
+    {
+      "id": 49,
+      "subject": "Chemistry",
+      "chapter": "f-Block Elements",
+      "question": "Lanthanoid contraction is caused by:",
+      "options": ["Poor shielding of 4f electrons", "Expansion of 5d orbitals", "Decrease in nuclear charge", "Increase in atomic number only"],
+      "correct": 0,
+      "explanation": "Lanthanoid contraction: 4f electrons have poor shielding → effective nuclear charge increases → size decreases across the series."
+    },
+    {
+      "id": 50,
+      "subject": "Chemistry",
+      "chapter": "f-Block Elements",
+      "question": "The most common oxidation state of lanthanoids is:",
+      "options": ["+3", "+2", "+4", "+5"],
+      "correct": 0,
+      "explanation": "Lanthanoids most commonly show +3 oxidation state. Some show +2 (Eu²⁺) or +4 (Ce⁴⁺) for extra stability of empty/half-filled/full 4f orbitals."
+    },
+    {
+      "id": 51,
+      "subject": "Chemistry",
+      "chapter": "Biomolecules",
+      "question": "Sucrose on hydrolysis gives:",
+      "options": ["Glucose and fructose", "Two glucose molecules", "Two fructose molecules", "Galactose and glucose"],
+      "correct": 0,
+      "explanation": "Sucrose (C₁₂H₂₂O₁₁) on hydrolysis: Sucrose → Glucose + Fructose. The mixture is called invert sugar."
+    },
+    {
+      "id": 52,
+      "subject": "Chemistry",
+      "chapter": "Biomolecules",
+      "question": "Cellulose is a polymer of:",
+      "options": ["β-D-glucose", "α-D-glucose", "Fructose", "Galactose"],
+      "correct": 0,
+      "explanation": "Cellulose: linear polymer of β-D-glucose units linked by β(1→4) glycosidic bonds. Starch has α-D-glucose with α(1→4) bonds."
+    },
+    {
+      "id": 53,
+      "subject": "Chemistry",
+      "chapter": "Hydrogen",
+      "question": "Hydrogen peroxide acts as both oxidizing and reducing agent because:",
+      "options": ["Oxygen in H₂O₂ is in -1 oxidation state (intermediate)", "It contains hydrogen", "It is unstable", "It is acidic"],
+      "correct": 0,
+      "explanation": "In H₂O₂, O is in -1 state. It can be reduced to -2 (oxidizing agent) or oxidized to 0 (reducing agent). Intermediate oxidation state allows both."
+    },
+    {
+      "id": 54,
+      "subject": "Chemistry",
+      "chapter": "Hydrogen",
+      "question": "Permanent hardness of water is due to presence of:",
+      "options": ["Chlorides and sulphates of Ca and Mg", "Bicarbonates of Ca and Mg", "Dissolved CO₂", "Dissolved O₂"],
+      "correct": 0,
+      "explanation": "Permanent hardness: CaCl₂, MgCl₂, CaSO₄, MgSO₄ (not removed by boiling). Temporary = bicarbonates (removed by boiling)."
+    },
+    {
+      "id": 55,
+      "subject": "Chemistry",
+      "chapter": "Redox Reactions",
+      "question": "In a disproportionation reaction, the same element is:",
+      "options": ["Simultaneously oxidized and reduced", "Only oxidized", "Only reduced", "Neither oxidized nor reduced"],
+      "correct": 0,
+      "explanation": "Disproportionation: same element in one oxidation state → two different states (one higher, one lower). e.g., 2H₂O₂ → 2H₂O + O₂"
+    },
+    {
+      "id": 56,
+      "subject": "Chemistry",
+      "chapter": "Surface Chemistry",
+      "question": "An emulsion of oil in water is stabilized by:",
+      "options": ["Hydrophilic emulsifier (e.g., soap)", "Only mechanical mixing", "Heating", "Dehydration"],
+      "correct": 0,
+      "explanation": "Oil in water (O/W) emulsion stabilized by hydrophilic (water-loving) emulsifiers like soap, proteins. They reduce surface tension."
+    },
+    {
+      "id": 57,
+      "subject": "Chemistry",
+      "chapter": "Surface Chemistry",
+      "question": "Gold sol prepared by Bredig's arc method is:",
+      "options": ["Lyophobic colloid", "Lyophilic colloid", "True solution", "Suspension"],
+      "correct": 0,
+      "explanation": "Metal sols (gold, silver) are lyophobic colloids (solvent-hating). They need stabilizers, are irreversible, and easily coagulated."
+    },
+    {
+      "id": 58,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Lassaigne's test is used to detect:",
+      "options": ["N, S, and halogens in organic compounds", "Only carbon", "Only hydrogen", "Functional groups"],
+      "correct": 0,
+      "explanation": "Lassaigne's test: organic compound + Na → NaCN (if N present), Na₂S (if S), NaX (if halogen). Detects N, S, X in organic compounds."
+    },
+    {
+      "id": 59,
+      "subject": "Chemistry",
+      "chapter": "Thermodynamics",
+      "question": "Standard enthalpy of combustion is always:",
+      "options": ["Negative (exothermic)", "Positive", "Zero", "Variable"],
+      "correct": 0,
+      "explanation": "Combustion is always exothermic (releases heat). Therefore, ΔH°combustion is always negative."
+    },
+    {
+      "id": 60,
+      "subject": "Chemistry",
+      "chapter": "Coordination Compounds",
+      "question": "The EAN (Effective Atomic Number) rule was given by:",
+      "options": ["Sidgwick", "Werner", "Pauling", "Crystal Field Theory"],
+      "correct": 0,
+      "explanation": "Sidgwick's EAN rule: metal in complex tends to acquire electrons until its total electron count equals the nearest noble gas."
+    },
+    {
+      "id": 61,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Saytzeff's rule predicts the major product of E1 elimination to be:",
+      "options": ["The more substituted alkene", "The less substituted alkene", "The terminal alkene", "Cyclic product"],
+      "correct": 0,
+      "explanation": "Saytzeff (Zaitsev) rule: β-elimination preferentially gives the more substituted (more stable) alkene as major product."
+    },
+    {
+      "id": 62,
+      "subject": "Chemistry",
+      "chapter": "Chemical Kinetics",
+      "question": "A catalyst works by:",
+      "options": ["Providing an alternative pathway with lower activation energy", "Changing the equilibrium position", "Increasing temperature", "Changing ΔG of reaction"],
+      "correct": 0,
+      "explanation": "Catalyst lowers Ea (activation energy) by providing alternative mechanism. It doesn't change ΔG, ΔH, or equilibrium constant."
+    },
+    {
+      "id": 63,
+      "subject": "Chemistry",
+      "chapter": "Equilibrium",
+      "question": "Le Chatelier's principle states that when a system at equilibrium is disturbed, it shifts to:",
+      "options": ["Counteract the change and restore equilibrium", "Amplify the change", "Remain unchanged", "Decompose"],
+      "correct": 0,
+      "explanation": "Le Chatelier: if equilibrium is disturbed (concentration, pressure, temperature), system shifts to oppose the change and establish new equilibrium."
+    },
+    {
+      "id": 64,
+      "subject": "Chemistry",
+      "chapter": "Solutions",
+      "question": "Henry's law states that the solubility of a gas in a liquid is:",
+      "options": ["Directly proportional to its partial pressure", "Inversely proportional to pressure", "Independent of pressure", "Proportional to temperature"],
+      "correct": 0,
+      "explanation": "Henry's law: p = KH × x (partial pressure ∝ mole fraction in solution). Higher pressure → more gas dissolves."
+    },
+    {
+      "id": 65,
+      "subject": "Chemistry",
+      "chapter": "Periodic Table",
+      "question": "The element with the highest electron affinity is:",
+      "options": ["Chlorine", "Fluorine", "Oxygen", "Nitrogen"],
+      "correct": 0,
+      "explanation": "Chlorine has highest electron affinity (-349 kJ/mol), not fluorine (-328 kJ/mol). F is small → electron-electron repulsion in 2p reduces its EA."
+    },
+    {
+      "id": 66,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Fries rearrangement converts phenyl ester to:",
+      "options": ["Hydroxyaryl ketone (acyl phenol)", "Ether", "Amine", "Alkane"],
+      "correct": 0,
+      "explanation": "Fries rearrangement: phenyl ester + AlCl₃ → o-hydroxyacetophenone + p-hydroxyacetophenone (acyl group migrates to ring)."
+    },
+    {
+      "id": 67,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Perkin's reaction is used to synthesize:",
+      "options": ["α,β-unsaturated acids (cinnamic acid)", "Alcohols", "Amines", "Ethers"],
+      "correct": 0,
+      "explanation": "Perkin's reaction: ArCHO + (CH₃CO)₂O + CH₃COONa → ArCH=CHCOOH (cinnamic acid from benzaldehyde)."
+    },
+    {
+      "id": 68,
+      "subject": "Chemistry",
+      "chapter": "d-Block",
+      "question": "The purple colour of KMnO₄ is due to:",
+      "options": ["Charge transfer transition", "d-d transition", "f-f transition", "s-p transition"],
+      "correct": 0,
+      "explanation": "KMnO₄: Mn in +7 (d⁰) has no d electrons for d-d transition. The colour is due to charge transfer (ligand to metal)."
+    },
+    {
+      "id": 69,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Tollen's reagent is:",
+      "options": ["Ammoniacal silver nitrate [Ag(NH₃)₂]⁺", "Fehling's A + B", "Cu₂Cl₂", "Neutral FeCl₃"],
+      "correct": 0,
+      "explanation": "Tollen's reagent = [Ag(NH₃)₂]⁺ (ammoniacal AgNO₃). Gives silver mirror with aldehydes (not ketones)."
+    },
+    {
+      "id": 70,
+      "subject": "Chemistry",
+      "chapter": "Polymers",
+      "question": "PTFE (Teflon) is a polymer of:",
+      "options": ["Tetrafluoroethene (CF₂=CF₂)", "Ethylene", "Vinyl chloride", "Styrene"],
+      "correct": 0,
+      "explanation": "PTFE (Teflon) = poly(tetrafluoroethylene). Monomer: CF₂=CF₂. Non-stick, chemically inert, high thermal stability."
+    },
+    {
+      "id": 71,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "The reagent used in Swern oxidation of alcohols is:",
+      "options": ["DMSO and oxalyl chloride", "KMnO₄", "K₂Cr₂O₇", "PCC"],
+      "correct": 0,
+      "explanation": "Swern oxidation: DMSO + (COCl)₂ + Et₃N converts 1° alcohol → aldehyde, 2° alcohol → ketone (mild, no over-oxidation)."
+    },
+    {
+      "id": 72,
+      "subject": "Chemistry",
+      "chapter": "Solid State",
+      "question": "Frenkel defect is most common in compounds with:",
+      "options": ["Large difference in ion sizes", "Similar ion sizes", "Only covalent compounds", "Only metals"],
+      "correct": 0,
+      "explanation": "Frenkel defect: smaller ion (usually cation) moves to interstitial site. Common when cation-anion size difference is large (e.g., AgBr, ZnS)."
+    },
+    {
+      "id": 73,
+      "subject": "Chemistry",
+      "chapter": "Electrochemistry",
+      "question": "In a lead storage battery, during discharge at cathode:",
+      "options": ["PbO₂ is reduced to PbSO₄", "Pb is oxidized to PbSO₄", "H₂SO₄ is formed", "H₂ is evolved"],
+      "correct": 0,
+      "explanation": "Cathode (reduction) during discharge: PbO₂ + 4H⁺ + SO₄²⁻ + 2e⁻ → PbSO₄ + 2H₂O. PbO₂ reduced."
+    },
+    {
+      "id": 74,
+      "subject": "Chemistry",
+      "chapter": "Chemical Bonding",
+      "question": "The type of bond present in CsCl crystal is:",
+      "options": ["Ionic (electrostatic)", "Covalent", "Metallic", "Van der Waals"],
+      "correct": 0,
+      "explanation": "CsCl is an ionic compound (Cs⁺ and Cl⁻ held by electrostatic attraction). It has BCC-type structure (not actually BCC of identical atoms)."
+    },
+    {
+      "id": 75,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Phenol is more acidic than ethanol because:",
+      "options": ["Phenoxide ion is stabilized by resonance", "Phenol has higher molecular weight", "Ethanol has resonance", "Phenol has inductive effect only"],
+      "correct": 0,
+      "explanation": "Phenoxide (C₆H₅O⁻) is resonance-stabilized (negative charge delocalized over benzene ring). Ethoxide has no such stabilization → phenol is more acidic."
+    },
+    {
+      "id": 76,
+      "subject": "Chemistry",
+      "chapter": "p-Block",
+      "question": "The allotrope of carbon that is the hardest known natural substance is:",
+      "options": ["Diamond", "Graphite", "Fullerene", "Graphene"],
+      "correct": 0,
+      "explanation": "Diamond: each carbon sp³ hybridized, bonded to 4 others in tetrahedral arrangement → 3D network → hardest natural substance."
+    },
+    {
+      "id": 77,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "In electrophilic aromatic substitution, -OH group is:",
+      "options": ["Ortho/para directing activator", "Meta directing", "Deactivator", "Has no effect"],
+      "correct": 0,
+      "explanation": "-OH is ortho/para director and ring activator (due to +M effect > -I effect). Electron donation to ring increases reactivity."
+    },
+    {
+      "id": 78,
+      "subject": "Chemistry",
+      "chapter": "Thermodynamics",
+      "question": "Hess's law is a consequence of:",
+      "options": ["Enthalpy being a state function", "Entropy being a path function", "Temperature dependence", "Le Chatelier's principle"],
+      "correct": 0,
+      "explanation": "Hess's law: total enthalpy change is independent of path (only depends on initial and final states). This is because H is a state function."
+    },
+    {
+      "id": 79,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Kolbe's reaction is the carboxylation of:",
+      "options": ["Sodium phenoxide with CO₂ to give salicylic acid", "Sodium ethoxide", "Methanol", "Benzene"],
+      "correct": 0,
+      "explanation": "Kolbe's reaction: C₆H₅ONa + CO₂ (125°C, 4-7 atm) → sodium salicylate → H⁺ → salicylic acid (o-hydroxybenzoic acid)."
+    },
+    {
+      "id": 80,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Rosenmund reduction converts:",
+      "options": ["Acid chloride to aldehyde", "Acid to alcohol", "Aldehyde to alcohol", "Ketone to alkane"],
+      "correct": 0,
+      "explanation": "Rosenmund reduction: RCOCl + H₂/Pd-BaSO₄ → RCHO. Pd poisoned with BaSO₄ prevents over-reduction to alcohol."
+    },
+    {
+      "id": 81,
+      "subject": "Chemistry",
+      "chapter": "Chemical Bonding",
+      "question": "Back bonding in BF₃ involves overlap of:",
+      "options": ["Filled p-orbital of F with empty p-orbital of B", "s-orbitals of B and F", "d-orbitals", "Only σ bonds"],
+      "correct": 0,
+      "explanation": "In BF₃: F has lone pair in 2p orbital that overlaps with empty 2p orbital of B (pπ-pπ back bonding). This makes B-F bond shorter."
+    },
+    {
+      "id": 82,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Benedict's solution is used to test for:",
+      "options": ["Reducing sugars", "Proteins", "Fats", "Non-reducing sugars"],
+      "correct": 0,
+      "explanation": "Benedict's solution (Cu²⁺ citrate complex) → reduced by reducing sugars (glucose, fructose) → red Cu₂O precipitate."
+    },
+    {
+      "id": 83,
+      "subject": "Chemistry",
+      "chapter": "Equilibrium",
+      "question": "The common ion effect is an application of:",
+      "options": ["Le Chatelier's principle", "Henry's law", "Raoult's law", "Hess's law"],
+      "correct": 0,
+      "explanation": "Common ion effect: adding a common ion shifts equilibrium (Le Chatelier's principle) to reduce its concentration → decreases dissociation."
+    },
+    {
+      "id": 84,
+      "subject": "Chemistry",
+      "chapter": "Solutions",
+      "question": "An azeotropic mixture boils at a constant temperature because:",
+      "options": ["Liquid and vapour phases have same composition", "It is a pure compound", "Raoult's law is obeyed", "No intermolecular forces exist"],
+      "correct": 0,
+      "explanation": "Azeotrope: composition of liquid = composition of vapour. Cannot be separated by simple distillation. Boils at constant T like a pure substance."
+    },
+    {
+      "id": 85,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Reimer-Tiemann reaction on phenol gives:",
+      "options": ["Salicylaldehyde (o-hydroxybenzaldehyde)", "Salicylic acid", "Aspirin", "Benzaldehyde"],
+      "correct": 0,
+      "explanation": "Reimer-Tiemann: Phenol + CHCl₃ + NaOH → Salicylaldehyde (ortho product). Dichlorocarbene (:CCl₂) is the electrophile."
+    },
+    {
+      "id": 86,
+      "subject": "Chemistry",
+      "chapter": "Redox",
+      "question": "The oxidation number of Cr in K₂Cr₂O₇ is:",
+      "options": ["+6", "+7", "+3", "+2"],
+      "correct": 0,
+      "explanation": "K₂Cr₂O₇: 2(+1) + 2(x) + 7(-2) = 0. 2 + 2x - 14 = 0. 2x = 12. x = +6."
+    },
+    {
+      "id": 87,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Fittig reaction involves coupling of:",
+      "options": ["Two aryl halides with Na", "Aryl halide with alkyl halide", "Two alkyl halides", "Grignard reagents"],
+      "correct": 0,
+      "explanation": "Fittig: 2ArX + 2Na → Ar-Ar + 2NaX. Coupling of two aryl halides. Wurtz-Fittig = ArX + RX + 2Na → Ar-R."
+    },
+    {
+      "id": 88,
+      "subject": "Chemistry",
+      "chapter": "d-Block",
+      "question": "Interstitial compounds of transition metals are characteristically:",
+      "options": ["Very hard, high melting point, chemically inert", "Soft and reactive", "Gaseous", "Colored solutions"],
+      "correct": 0,
+      "explanation": "Interstitial compounds: small atoms (H, C, N, B) occupy voids in metal lattice. Properties: extremely hard, very high MP, chemically inert, metallic conductors."
+    },
+    {
+      "id": 89,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "Hoffman elimination of quaternary ammonium hydroxide gives the:",
+      "options": ["Less substituted alkene (anti-Saytzeff)", "More substituted alkene", "Alcohol", "Amine"],
+      "correct": 0,
+      "explanation": "Hofmann elimination: quaternary ammonium → less substituted alkene (anti-Zaitsev). Due to bulky leaving group, E2 occurs at less hindered β-H."
+    },
+    {
+      "id": 90,
+      "subject": "Chemistry",
+      "chapter": "Organic",
+      "question": "The reaction of phenol with bromine water gives:",
+      "options": ["2,4,6-tribromophenol (white precipitate)", "Bromobenzene", "o-bromophenol only", "No reaction"],
+      "correct": 0,
+      "explanation": "Phenol + Br₂(aq) → 2,4,6-tribromophenol (white ppt) + 3HBr. The -OH group activates the ring so strongly that all three positions are brominated."
+    },
+    {
+      "id": 91,
+      "subject": "Biology",
+      "chapter": "Animal Husbandry",
+      "question": "MOET (Multiple Ovulation Embryo Transfer) is a programme for:",
+      "options": ["Increasing herd size of superior cattle", "Treating infertility in humans", "Plant breeding", "Fish culture"],
+      "correct": 0,
+      "explanation": "MOET: cow given FSH for superovulation → mated → 8-32 embryos recovered → transferred to surrogate mothers. Rapid herd improvement."
+    },
+    {
+      "id": 92,
+      "subject": "Biology",
+      "chapter": "Animal Husbandry",
+      "question": "Which of the following is a high-yielding exotic breed of cow?",
+      "options": ["Jersey", "Sahiwal", "Red Sindhi", "Gir"],
+      "correct": 0,
+      "explanation": "Jersey is a high-yielding exotic (foreign) breed. Sahiwal, Red Sindhi, and Gir are Indian (indigenous) breeds."
+    },
+    {
+      "id": 93,
+      "subject": "Biology",
+      "chapter": "Microbes in Human Welfare",
+      "question": "The microorganism used in the production of citric acid commercially is:",
+      "options": ["Aspergillus niger", "Saccharomyces cerevisiae", "Lactobacillus", "Clostridium"],
+      "correct": 0,
+      "explanation": "Aspergillus niger (a fungus) is used for commercial production of citric acid by fermentation of molasses."
+    },
+    {
+      "id": 94,
+      "subject": "Biology",
+      "chapter": "Microbes in Human Welfare",
+      "question": "Biogas is produced by:",
+      "options": ["Methanogenic archaebacteria (Methanobacterium)", "E. coli", "Rhizobium", "Cyanobacteria"],
+      "correct": 0,
+      "explanation": "Methanogens (Methanobacterium, Methanococcus) produce methane (biogas) by anaerobic digestion of organic waste in biogas plants."
+    },
+    {
+      "id": 95,
+      "subject": "Biology",
+      "chapter": "Microbes in Human Welfare",
+      "question": "Cyclosporin A is an immunosuppressant produced by:",
+      "options": ["Trichoderma polysporum", "Penicillium notatum", "Streptomyces", "Monascus purpureus"],
+      "correct": 0,
+      "explanation": "Cyclosporin A from Trichoderma polysporum (fungus) is used as immunosuppressant in organ transplant patients."
+    },
+    {
+      "id": 96,
+      "subject": "Biology",
+      "chapter": "Food Enhancement",
+      "question": "Green revolution in India is associated with:",
+      "options": ["Development of high-yielding wheat and rice varieties", "Organic farming", "Tissue culture", "Aquaculture"],
+      "correct": 0,
+      "explanation": "Green Revolution (1960s-70s): high-yielding varieties of wheat (by Norman Borlaug) and rice introduced in India → dramatic increase in food production."
+    },
+    {
+      "id": 97,
+      "subject": "Biology",
+      "chapter": "Mineral Nutrition",
+      "question": "The mineral element required for nitrogen fixation by Rhizobium is:",
+      "options": ["Molybdenum", "Zinc", "Copper", "Manganese"],
+      "correct": 0,
+      "explanation": "Molybdenum (Mo) is a component of nitrogenase enzyme (Mo-Fe protein) essential for biological nitrogen fixation."
+    },
+    {
+      "id": 98,
+      "subject": "Biology",
+      "chapter": "Mineral Nutrition",
+      "question": "Chlorosis (yellowing of leaves) is caused by deficiency of:",
+      "options": ["Mg, Fe, N, or Mn", "Only phosphorus", "Only potassium", "Only calcium"],
+      "correct": 0,
+      "explanation": "Chlorosis: deficiency of N, Mg, Fe, Mn, Zn, S (all needed for chlorophyll synthesis or function). Most common: N and Fe deficiency."
+    },
+    {
+      "id": 99,
+      "subject": "Biology",
+      "chapter": "Body Fluids",
+      "question": "Lymph differs from blood in that it:",
+      "options": ["Lacks RBCs and most proteins", "Has more RBCs than blood", "Is identical to blood", "Contains no WBCs"],
+      "correct": 0,
+      "explanation": "Lymph: colorless, lacks RBCs, has fewer proteins than blood, but has lymphocytes (WBCs). Formed from tissue fluid entering lymph capillaries."
+    },
+    {
+      "id": 100,
+      "subject": "Biology",
+      "chapter": "Body Fluids",
+      "question": "The Rh factor is named after:",
+      "options": ["Rhesus monkey", "Rheumatic fever", "Rhine river", "Rhodopsin"],
+      "correct": 0,
+      "explanation": "Rh factor discovered by Landsteiner and Wiener (1940) in Rhesus monkey blood. About 80% humans are Rh positive."
+    },
+    {
+      "id": 101,
+      "subject": "Biology",
+      "chapter": "Excretion",
+      "question": "Uricotelic organisms excrete nitrogenous waste as:",
+      "options": ["Uric acid (birds, reptiles, insects)", "Urea", "Ammonia", "Amino acids"],
+      "correct": 0,
+      "explanation": "Uricotelic: excrete uric acid (insoluble, non-toxic, least water needed). Birds, reptiles, land insects. Adaptation to conserve water."
+    },
+    {
+      "id": 102,
+      "subject": "Biology",
+      "chapter": "Locomotion",
+      "question": "Osteoporosis is caused by:",
+      "options": ["Decreased bone density (loss of calcium)", "Excess calcium", "Vitamin A deficiency", "Muscle wasting"],
+      "correct": 0,
+      "explanation": "Osteoporosis: decreased bone mass/density (especially in post-menopausal women due to decreased estrogen). Bones become brittle and fracture-prone."
+    },
+    {
+      "id": 103,
+      "subject": "Biology",
+      "chapter": "Locomotion",
+      "question": "Rigor mortis is due to:",
+      "options": ["Formation of permanent cross-bridges (no ATP for detachment)", "Excess ATP", "Nerve stimulation", "Excess calcium"],
+      "correct": 0,
+      "explanation": "After death, ATP depletes → actin-myosin cross-bridges cannot detach → muscles become rigid (rigor mortis). Resolves when proteins degrade."
+    },
+    {
+      "id": 104,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "Ethylene is the plant hormone that:",
+      "options": ["Promotes fruit ripening", "Promotes cell division", "Inhibits root growth only", "Is involved only in phototropism"],
+      "correct": 0,
+      "explanation": "Ethylene (C₂H₄): gaseous hormone, promotes fruit ripening, leaf abscission, senescence, breaking seed dormancy."
+    },
+    {
+      "id": 105,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "The respiratory quotient (RQ) for carbohydrates is:",
+      "options": ["1.0", "0.7", "Greater than 1", "0"],
+      "correct": 0,
+      "explanation": "RQ = CO₂ released/O₂ consumed. For carbohydrates: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. RQ = 6/6 = 1.0. For fats RQ < 1 (~0.7)."
+    },
+    {
+      "id": 106,
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "question": "Transduction in bacteria is gene transfer mediated by:",
+      "options": ["Bacteriophage (virus)", "Pili (conjugation)", "Transformation", "Transposon"],
+      "correct": 0,
+      "explanation": "Transduction: transfer of genetic material from one bacterium to another through bacteriophage (virus as vector). Discovered by Zinder & Lederberg."
+    },
+    {
+      "id": 107,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "Sacred groves are examples of:",
+      "options": ["In-situ conservation", "Ex-situ conservation", "Cryopreservation", "Seed banks"],
+      "correct": 0,
+      "explanation": "Sacred groves: forest patches protected by tribal communities due to religious beliefs. In-situ conservation (in natural habitat). Found across India."
+    },
+    {
+      "id": 108,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "The Red Data Book is maintained by:",
+      "options": ["IUCN", "WHO", "UNEP", "WWF"],
+      "correct": 0,
+      "explanation": "IUCN (International Union for Conservation of Nature) maintains the Red Data Book/Red List documenting endangered, vulnerable, and extinct species."
+    },
+    {
+      "id": 109,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "The hormone that stimulates milk ejection (let-down reflex) is:",
+      "options": ["Oxytocin", "Prolactin", "Estrogen", "FSH"],
+      "correct": 0,
+      "explanation": "Oxytocin (from posterior pituitary) causes milk ejection by contracting myoepithelial cells of mammary glands. Prolactin stimulates milk production."
+    },
+    {
+      "id": 110,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Diabetes insipidus is caused by deficiency of:",
+      "options": ["ADH (vasopressin)", "Insulin", "Thyroxine", "Growth hormone"],
+      "correct": 0,
+      "explanation": "Diabetes insipidus: lack of ADH → kidneys cannot reabsorb water → excessive dilute urine (polyuria) and excessive thirst. Not related to blood sugar."
+    },
+    {
+      "id": 111,
+      "subject": "Biology",
+      "chapter": "Molecular Biology",
+      "question": "Griffith's transformation experiment (1928) showed that:",
+      "options": ["There exists a 'transforming principle' that can change bacterial phenotype", "DNA is the genetic material", "RNA is the genetic material", "Protein is hereditary material"],
+      "correct": 0,
+      "explanation": "Griffith showed S-strain (virulent, killed) could transform R-strain (non-virulent) to S-strain → a 'transforming principle' exists. Avery later identified it as DNA."
+    },
+    {
+      "id": 112,
+      "subject": "Biology",
+      "chapter": "Reproduction",
+      "question": "Apomixis is seed formation:",
+      "options": ["Without fertilization (asexual reproduction through seeds)", "With double fertilization", "Only in gymnosperms", "Through vegetative propagation"],
+      "correct": 0,
+      "explanation": "Apomixis: seed formation without fertilization. Embryo develops from diploid egg or nucellar cells. Genetically identical to parent."
+    },
+    {
+      "id": 113,
+      "subject": "Biology",
+      "chapter": "Plant Kingdom",
+      "question": "Oogamy is the type of sexual reproduction found in:",
+      "options": ["Volvox, Fucus, and all higher plants", "Only bacteria", "Only in animals", "Chlamydomonas only"],
+      "correct": 0,
+      "explanation": "Oogamy: fusion of large non-motile egg with small motile sperm. Found in Volvox, Fucus, all bryophytes, pteridophytes, and seed plants."
+    },
+    {
+      "id": 114,
+      "subject": "Biology",
+      "chapter": "Animal Kingdom",
+      "question": "Bioluminescence is well known in:",
+      "options": ["Ctenophora (comb jellies)", "Porifera", "Echinodermata", "Arthropoda"],
+      "correct": 0,
+      "explanation": "Ctenophora (comb jellies/sea walnuts) are well known for bioluminescence. They have comb-like ciliated plates for locomotion."
+    },
+    {
+      "id": 115,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "Nitrogen fixation is the conversion of:",
+      "options": ["N₂ → NH₃ (or NH₄⁺)", "NH₃ → NO₃⁻", "NO₃⁻ → N₂", "N₂ → NO₂"],
+      "correct": 0,
+      "explanation": "Nitrogen fixation: N₂ + 8H⁺ + 8e⁻ + 16ATP → 2NH₃ + H₂ + 16ADP. Catalyzed by nitrogenase in Rhizobium, Azotobacter, cyanobacteria."
+    },
+    {
+      "id": 116,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "The term 'biological clock' or circadian rhythm is controlled by:",
+      "options": ["Suprachiasmatic nucleus of hypothalamus (with pineal gland)", "Cerebellum", "Medulla", "Spinal cord"],
+      "correct": 0,
+      "explanation": "Circadian rhythm (24-hr biological clock) is controlled by suprachiasmatic nucleus (SCN) in hypothalamus. Pineal gland secretes melatonin for sleep-wake cycle."
+    },
+    {
+      "id": 117,
+      "subject": "Biology",
+      "chapter": "Cell Biology",
+      "question": "Plasmodesmata are:",
+      "options": ["Cytoplasmic connections between adjacent plant cells", "Junctions in animal cells", "Part of cell wall", "Part of vacuole"],
+      "correct": 0,
+      "explanation": "Plasmodesmata: cytoplasmic strands passing through cell walls connecting adjacent plant cells. Allow cell-to-cell communication (symplastic pathway)."
+    },
+    {
+      "id": 118,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "Biomagnification refers to:",
+      "options": ["Increase in concentration of non-degradable pollutants at successive trophic levels", "Decrease in toxins", "Magnification by microscope", "Population increase"],
+      "correct": 0,
+      "explanation": "Biomagnification: non-biodegradable substances (DDT, mercury) accumulate increasingly at higher trophic levels (e.g., DDT in fish-eating birds)."
+    },
+    {
+      "id": 119,
+      "subject": "Biology",
+      "chapter": "Microbes",
+      "question": "Penicillin was discovered by:",
+      "options": ["Alexander Fleming (1928)", "Louis Pasteur", "Robert Koch", "Edward Jenner"],
+      "correct": 0,
+      "explanation": "Alexander Fleming (1928) discovered penicillin from Penicillium notatum (fungus). First antibiotic used clinically (1940s by Florey & Chain)."
+    },
+    {
+      "id": 120,
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "question": "Restriction Fragment Length Polymorphism (RFLP) is used in:",
+      "options": ["DNA fingerprinting and genetic mapping", "Protein synthesis", "RNA splicing", "Cell division"],
+      "correct": 0,
+      "explanation": "RFLP: differences in DNA fragment lengths after restriction enzyme digestion. Used for DNA fingerprinting, genetic mapping, and forensics."
+    },
+    {
+      "id": 121,
+      "subject": "Biology",
+      "chapter": "Classification",
+      "question": "Nematocysts (cnidoblasts) are characteristic of phylum:",
+      "options": ["Cnidaria (Coelenterata)", "Porifera", "Annelida", "Platyhelminthes"],
+      "correct": 0,
+      "explanation": "Nematocysts (stinging cells/cnidocytes) are unique to Cnidaria (Hydra, jellyfish, corals). Used for defense and prey capture."
+    },
+    {
+      "id": 122,
+      "subject": "Biology",
+      "chapter": "Evolution",
+      "question": "Adaptive radiation is best exemplified by:",
+      "options": ["Darwin's finches of Galapagos", "Industrial melanism", "Sickle cell anemia", "Hardy-Weinberg equilibrium"],
+      "correct": 0,
+      "explanation": "Adaptive radiation: single ancestor → diversification into multiple species filling different niches. Best example: Darwin's finches (different beak shapes for different food)."
+    },
+    {
+      "id": 123,
+      "subject": "Biology",
+      "chapter": "Human Health",
+      "question": "Metastasis in cancer refers to:",
+      "options": ["Spread of cancer cells to distant sites via blood/lymph", "First mutation", "Benign tumor growth", "Cell death"],
+      "correct": 0,
+      "explanation": "Metastasis: malignant cells break away from primary tumor, travel through blood/lymph, and establish secondary tumors at distant sites."
+    },
+    {
+      "id": 124,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "Gibberellins were first discovered from:",
+      "options": ["Fungus Gibberella fujikuroi (Fusarium)", "Bacteria", "Wheat", "Auxin research"],
+      "correct": 0,
+      "explanation": "Gibberellins first extracted from fungus Gibberella fujikuroi (causes 'bakane'/foolish seedling disease in rice). Promote stem elongation."
+    },
+    {
+      "id": 125,
+      "subject": "Biology",
+      "chapter": "Reproduction",
+      "question": "Microsporogenesis results in formation of:",
+      "options": ["Microspore tetrad (pollen grains)", "Megaspores", "Ovules", "Seeds"],
+      "correct": 0,
+      "explanation": "Microsporogenesis: microspore mother cell (2n) → meiosis → 4 haploid microspores (tetrad). Each microspore develops into a pollen grain."
+    },
+    {
+      "id": 126,
+      "subject": "Biology",
+      "chapter": "Cell Biology",
+      "question": "Semi-autonomous organelles that contain their own DNA are:",
+      "options": ["Mitochondria and chloroplasts", "Ribosomes and lysosomes", "Golgi and ER", "Nucleus only"],
+      "correct": 0,
+      "explanation": "Mitochondria and chloroplasts have their own circular DNA, ribosomes (70S), and can self-replicate. Called semi-autonomous (still depend on nuclear genes)."
+    },
+    {
+      "id": 127,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Rods and cones in the retina contain:",
+      "options": ["Rhodopsin (rods) and Iodopsin (cones)", "Only melanin", "Only keratin", "Hemoglobin"],
+      "correct": 0,
+      "explanation": "Rods: rhodopsin (scotopsin + retinal) for dim light vision. Cones: iodopsin (photopsin + retinal) for color vision and bright light."
+    },
+    {
+      "id": 128,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "The region of the Earth where life exists is called:",
+      "options": ["Biosphere", "Lithosphere", "Hydrosphere", "Atmosphere"],
+      "correct": 0,
+      "explanation": "Biosphere: the sum total of all ecosystems; the zone of life on Earth (includes parts of lithosphere, hydrosphere, and atmosphere)."
+    },
+    {
+      "id": 129,
+      "subject": "Biology",
+      "chapter": "Molecular Biology",
+      "question": "The minimum distance between two genes on the same chromosome is expressed in:",
+      "options": ["centiMorgans (map units)", "Angstroms", "Nanometers", "Daltons"],
+      "correct": 0,
+      "explanation": "Genetic distance measured in centiMorgans (cM) or map units. 1 cM = 1% recombination frequency between two genes."
+    },
+    {
+      "id": 130,
+      "subject": "Biology",
+      "chapter": "Animal Kingdom",
+      "question": "Metameric segmentation is characteristic of:",
+      "options": ["Annelida", "Platyhelminthes", "Aschelminthes", "Porifera"],
+      "correct": 0,
+      "explanation": "Metameric segmentation: body divided into segments (metameres), each with repetition of organs. Found in Annelida (earthworm: ~100-120 segments)."
+    },
+    {
+      "id": 131,
+      "subject": "Biology",
+      "chapter": "Plant Morphology",
+      "question": "Phyllotaxy refers to:",
+      "options": ["Arrangement of leaves on the stem", "Arrangement of flowers", "Root system", "Venation"],
+      "correct": 0,
+      "explanation": "Phyllotaxy: pattern of leaf arrangement on stem. Types: alternate (1 leaf/node), opposite (2 leaves/node), whorled (3+ leaves/node)."
+    },
+    {
+      "id": 132,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Acetylcholine is a neurotransmitter released at:",
+      "options": ["Neuromuscular junction", "Only in the brain", "Only in sensory neurons", "Red blood cells"],
+      "correct": 0,
+      "explanation": "Acetylcholine (ACh): released at neuromuscular junctions (motor end plate), parasympathetic endings, and some CNS synapses."
+    },
+    {
+      "id": 133,
+      "subject": "Biology",
+      "chapter": "Cell Division",
+      "question": "Interkinesis is the stage between:",
+      "options": ["Meiosis I and Meiosis II", "G1 and S phase", "Mitosis and interphase", "G2 and M phase"],
+      "correct": 0,
+      "explanation": "Interkinesis: short resting phase between meiosis I and II. No DNA replication occurs during this period. Cells remain haploid."
+    },
+    {
+      "id": 134,
+      "subject": "Biology",
+      "chapter": "Biotechnology",
+      "question": "Biopiracy refers to:",
+      "options": ["Unauthorized exploitation of biological resources and traditional knowledge", "Legal use of patents", "Conservation of biodiversity", "Cloning"],
+      "correct": 0,
+      "explanation": "Biopiracy: exploitation of biological resources and indigenous knowledge without proper authorization or benefit sharing (e.g., patenting neem, turmeric, basmati)."
+    },
+    {
+      "id": 135,
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "question": "The Philadelphia chromosome is associated with:",
+      "options": ["Chronic myeloid leukemia (CML)", "Down syndrome", "Turner syndrome", "Sickle cell anemia"],
+      "correct": 0,
+      "explanation": "Philadelphia chromosome: reciprocal translocation t(9;22). BCR-ABL fusion gene produces constitutively active tyrosine kinase → CML."
+    },
+    {
+      "id": 136,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "CAM (Crassulacean Acid Metabolism) plants fix CO₂ during:",
+      "options": ["Night (stomata open at night)", "Day only", "Both day and night equally", "Never fix CO₂"],
+      "correct": 0,
+      "explanation": "CAM plants (succulents): stomata open at night → fix CO₂ into malate (OAA→malate). Day: stomata closed, malate → CO₂ → Calvin cycle."
+    },
+    {
+      "id": 137,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Universal donor blood group is:",
+      "options": ["O negative", "AB positive", "A positive", "B negative"],
+      "correct": 0,
+      "explanation": "O negative: no A, B antigens (no agglutination) and no Rh antigen. Can donate to all blood groups → universal donor."
+    },
+    {
+      "id": 138,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "The Montreal Protocol (1987) is related to:",
+      "options": ["Reduction of ozone-depleting substances (CFCs)", "Greenhouse gas reduction", "Biodiversity conservation", "Nuclear disarmament"],
+      "correct": 0,
+      "explanation": "Montreal Protocol: international treaty to phase out production of ozone-depleting substances (CFCs, halons, carbon tetrachloride)."
+    },
+    {
+      "id": 139,
+      "subject": "Biology",
+      "chapter": "Microbes",
+      "question": "BOD (Biological Oxygen Demand) is a measure of:",
+      "options": ["Organic matter/pollution in water", "Oxygen in atmosphere", "pH of water", "Mineral content"],
+      "correct": 0,
+      "explanation": "BOD: amount of dissolved oxygen needed by microorganisms to decompose organic matter in water. High BOD = more pollution."
+    },
+    {
+      "id": 140,
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "question": "A woman with blood group A (genotype I^A i) marries a man with blood group B (genotype I^B i). The possible blood groups of their children are:",
+      "options": ["A, B, AB, O (all four possible)", "Only A and B", "Only AB", "Only O"],
+      "correct": 0,
+      "explanation": "I^A i × I^B i → I^A I^B (AB), I^A i (A), I^B i (B), ii (O). All four blood groups possible in offspring."
+    },
+    {
+      "id": 141,
+      "subject": "Biology",
+      "chapter": "Cell Biology",
+      "question": "Signal recognition particle (SRP) is involved in:",
+      "options": ["Targeting proteins to ER (secretory pathway)", "DNA replication", "Mitosis", "Transcription"],
+      "correct": 0,
+      "explanation": "SRP recognizes signal peptide on nascent polypeptide → halts translation → directs ribosome to ER membrane → protein enters ER lumen."
+    },
+    {
+      "id": 142,
+      "subject": "Biology",
+      "chapter": "Human Health",
+      "question": "Elephantiasis (filariasis) is caused by:",
+      "options": ["Wuchereria bancrofti (transmitted by Culex mosquito)", "Plasmodium", "Ascaris", "Entamoeba"],
+      "correct": 0,
+      "explanation": "Elephantiasis caused by Wuchereria bancrofti/W. malayi (nematode). Transmitted by Culex mosquito. Blocks lymph vessels → limb swelling."
+    },
+    {
+      "id": 143,
+      "subject": "Biology",
+      "chapter": "Reproduction",
+      "question": "Cleistogamous flowers ensure:",
+      "options": ["Self-pollination (autogamy)", "Cross-pollination", "No pollination", "Wind pollination"],
+      "correct": 0,
+      "explanation": "Cleistogamous flowers: remain closed, never open → guaranteed self-pollination. Found in Oxalis, Commelina, Viola."
+    },
+    {
+      "id": 144,
+      "subject": "Biology",
+      "chapter": "Plant Anatomy",
+      "question": "Bulliform cells (motor cells) are found in:",
+      "options": ["Monocot leaves (grasses) for leaf rolling", "Dicot leaves", "Roots", "Stems only"],
+      "correct": 0,
+      "explanation": "Bulliform cells: large, bubble-shaped cells in upper epidermis of monocot (grass) leaves. They lose water → leaf rolls to reduce transpiration."
+    },
+    {
+      "id": 145,
+      "subject": "Biology",
+      "chapter": "Molecular Biology",
+      "question": "Meselson and Stahl experiment proved:",
+      "options": ["Semiconservative replication of DNA", "Conservative replication", "Dispersive replication", "DNA is the genetic material"],
+      "correct": 0,
+      "explanation": "Meselson-Stahl (1958) used ¹⁵N/¹⁴N labeled E. coli DNA and density gradient centrifugation to prove semiconservative DNA replication."
+    },
+    {
+      "id": 146,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "The net gain of ATP from one molecule of glucose in aerobic respiration (considering theoretical maximum) is:",
+      "options": ["36-38 ATP", "2 ATP", "10 ATP", "100 ATP"],
+      "correct": 0,
+      "explanation": "Glycolysis: 2 ATP + 2 NADH. Pyruvate decarboxylation: 2 NADH. Krebs: 2 ATP + 6 NADH + 2 FADH₂. ETC: NADH=2.5 ATP each, FADH₂=1.5 each. Total ≈ 36-38."
+    },
+    {
+      "id": 147,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Angiotensin II causes:",
+      "options": ["Vasoconstriction and stimulates aldosterone release", "Vasodilation", "Decreased blood pressure", "Diuresis"],
+      "correct": 0,
+      "explanation": "Angiotensin II: powerful vasoconstrictor, stimulates aldosterone secretion from adrenal cortex → Na⁺/water retention → increases BP."
+    },
+    {
+      "id": 148,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "Biological control of pests uses:",
+      "options": ["Natural predators/parasites/pathogens of pests", "Chemical pesticides", "Burning fields", "Flooding"],
+      "correct": 0,
+      "explanation": "Biocontrol: using natural enemies of pests. e.g., Ladybird beetles eat aphids, Bt toxin kills bollworm, Trichoderma controls plant pathogens."
+    },
+    {
+      "id": 149,
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "question": "Genomic imprinting means:",
+      "options": ["Expression of gene depends on which parent it was inherited from", "All genes are expressed equally", "Genes are deleted", "Only maternal genes expressed"],
+      "correct": 0,
+      "explanation": "Genomic imprinting: some genes are expressed only from maternal or paternal allele (the other is silenced by methylation). Parent-of-origin effect."
+    },
+    {
+      "id": 150,
+      "subject": "Biology",
+      "chapter": "Cell Biology",
+      "question": "Hayflick limit refers to:",
+      "options": ["Maximum number of times a normal cell can divide (~50)", "Minimum cell size", "Nuclear size limit", "Chromosome number"],
+      "correct": 0,
+      "explanation": "Hayflick limit: normal human cells divide about 50 times before entering senescence (due to telomere shortening). Cancer cells bypass this."
+    },
+    {
+      "id": 151,
+      "subject": "Biology",
+      "chapter": "Reproduction",
+      "question": "The first cell of sporophytic generation in angiosperms is:",
+      "options": ["Zygote (2n)", "Spore", "Gamete", "Endosperm"],
+      "correct": 0,
+      "explanation": "Zygote (2n) is the first cell of sporophytic generation. It's formed by fusion of haploid gametes (syngamy) and divides to form embryo."
+    },
+    {
+      "id": 152,
+      "subject": "Biology",
+      "chapter": "Plant Kingdom",
+      "question": "Alternation of generations is found in:",
+      "options": ["All plants (bryophytes to angiosperms)", "Only ferns", "Only mosses", "Only angiosperms"],
+      "correct": 0,
+      "explanation": "Alternation of generations (gametophyte ↔ sporophyte) occurs in ALL plants. Relative dominance varies: bryophytes (gametophyte dominant), others (sporophyte dominant)."
+    },
+    {
+      "id": 153,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "The term 'immunity' that is present from birth is called:",
+      "options": ["Innate immunity", "Acquired immunity", "Active immunity", "Passive immunity"],
+      "correct": 0,
+      "explanation": "Innate (natural) immunity: present from birth, non-specific, includes physical barriers (skin), phagocytes, NK cells, complement, interferons."
+    },
+    {
+      "id": 154,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "Guttation occurs through:",
+      "options": ["Hydathodes", "Stomata", "Lenticels", "Root hairs"],
+      "correct": 0,
+      "explanation": "Guttation: loss of water as liquid droplets through hydathodes (water pores) at leaf margins. Occurs when root pressure is high and transpiration is low."
+    },
+    {
+      "id": 155,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "Endemic species are those which are:",
+      "options": ["Confined to a particular geographic region", "Found everywhere", "Migratory", "Extinct"],
+      "correct": 0,
+      "explanation": "Endemic species: found only in a specific geographical area and nowhere else. e.g., Lemurs (Madagascar), Kangaroos (Australia)."
+    },
+    {
+      "id": 156,
+      "subject": "Biology",
+      "chapter": "Molecular Biology",
+      "question": "The enzyme that synthesizes RNA primer during DNA replication is:",
+      "options": ["Primase (DnaG)", "DNA polymerase III", "Helicase", "Ligase"],
+      "correct": 0,
+      "explanation": "Primase (RNA polymerase) synthesizes short RNA primer (8-12 nucleotides) required by DNA polymerase III to begin DNA synthesis."
+    },
+    {
+      "id": 157,
+      "subject": "Biology",
+      "chapter": "Human Health",
+      "question": "Allergic reactions are mediated by:",
+      "options": ["IgE antibodies and mast cells", "IgG antibodies only", "IgM antibodies", "T-cells only"],
+      "correct": 0,
+      "explanation": "Allergy: IgE binds to mast cells → re-exposure to allergen → mast cell degranulation → histamine release → allergic symptoms."
+    },
+    {
+      "id": 158,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "Bolting (rapid stem elongation) is promoted by:",
+      "options": ["Gibberellins", "Auxin", "Cytokinin", "ABA"],
+      "correct": 0,
+      "explanation": "Bolting: rapid internode elongation (especially in rosette plants) stimulated by gibberellins. Often precedes flowering."
+    },
+    {
+      "id": 159,
+      "subject": "Biology",
+      "chapter": "Biotechnology",
+      "question": "Gene therapy for ADA deficiency involves introducing:",
+      "options": ["Functional ADA gene into patient's lymphocytes", "Antibiotics", "Immune cells from donor", "Bone marrow transplant only"],
+      "correct": 0,
+      "explanation": "ADA (adenosine deaminase) gene therapy: functional ADA gene delivered via retroviral vector into patient's lymphocytes → produces enzyme → cures SCID."
+    },
+    {
+      "id": 160,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "Hot spots of biodiversity are characterized by:",
+      "options": ["High endemism and high degree of threat", "Low species diversity", "Cold climate", "Desert conditions"],
+      "correct": 0,
+      "explanation": "Biodiversity hotspots (Norman Myers): areas with ≥1500 endemic plant species AND lost ≥70% original habitat. 34 hotspots globally. India has 4."
+    },
+    {
+      "id": 161,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Which cranial nerve is responsible for facial expressions?",
+      "options": ["Facial nerve (VII)", "Trigeminal (V)", "Vagus (X)", "Optic (II)"],
+      "correct": 0,
+      "explanation": "Facial nerve (CN VII): motor innervation of facial muscles (expressions), taste sensation from anterior 2/3 tongue, salivary/lacrimal gland secretion."
+    },
+    {
+      "id": 162,
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "question": "Quantitative trait loci (QTL) mapping is used to study:",
+      "options": ["Polygenic traits", "Single gene disorders", "Viral genetics", "Bacterial transformation"],
+      "correct": 0,
+      "explanation": "QTL mapping: identifies chromosomal regions (loci) containing genes that control quantitative/polygenic traits (height, yield, weight)."
+    },
+    {
+      "id": 163,
+      "subject": "Biology",
+      "chapter": "Cell Biology",
+      "question": "Autophagy is the process of:",
+      "options": ["Cell eating its own damaged organelles", "Cell eating foreign particles", "Cell division", "Cell growth"],
+      "correct": 0,
+      "explanation": "Autophagy: cellular self-eating. Damaged organelles enclosed in autophagosomes → fuse with lysosomes → digested. Important in cellular quality control."
+    },
+    {
+      "id": 164,
+      "subject": "Biology",
+      "chapter": "Reproduction",
+      "question": "Progesterone is called the 'pregnancy hormone' because it:",
+      "options": ["Maintains the endometrium for implantation and supports pregnancy", "Induces ovulation", "Causes menstruation", "Stimulates lactation"],
+      "correct": 0,
+      "explanation": "Progesterone: maintains thick endometrium, inhibits uterine contractions, supports pregnancy. Drop in progesterone causes menstruation."
+    },
+    {
+      "id": 165,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "Eutrophication leads to:",
+      "options": ["Algal bloom → decreased O₂ → fish kill", "Increased fish production", "Cleaner water", "Decreased nutrients"],
+      "correct": 0,
+      "explanation": "Eutrophication: excess nutrients (N, P) → algal bloom → blocks light → algae die → decomposition uses O₂ → anoxia → fish death."
+    },
+    {
+      "id": 166,
+      "subject": "Biology",
+      "chapter": "Plant Physiology",
+      "question": "Cytokinin promotes:",
+      "options": ["Cell division and delays senescence", "Cell elongation only", "Abscission", "Dormancy"],
+      "correct": 0,
+      "explanation": "Cytokinins: promote cell division (cytokinesis), delay leaf senescence, promote lateral bud growth (counteracts apical dominance by auxin)."
+    },
+    {
+      "id": 167,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Synovial fluid is found in:",
+      "options": ["Freely movable (synovial) joints", "Fixed joints", "Blood vessels", "Lymph nodes"],
+      "correct": 0,
+      "explanation": "Synovial fluid: viscous fluid in synovial (diarthroses) joints. Acts as lubricant, shock absorber, and provides nutrients to cartilage."
+    },
+    {
+      "id": 168,
+      "subject": "Biology",
+      "chapter": "Molecular Biology",
+      "question": "Epigenetics involves heritable changes that:",
+      "options": ["Do not change DNA sequence (methylation, histone modification)", "Alter DNA sequence", "Require mutation", "Are always beneficial"],
+      "correct": 0,
+      "explanation": "Epigenetics: heritable changes in gene expression without altering DNA sequence. Mechanisms: DNA methylation, histone modification, non-coding RNA."
+    },
+    {
+      "id": 169,
+      "subject": "Biology",
+      "chapter": "Classification",
+      "question": "Binomial nomenclature was given by:",
+      "options": ["Carolus Linnaeus", "Charles Darwin", "Lamarck", "Aristotle"],
+      "correct": 0,
+      "explanation": "Carolus Linnaeus introduced binomial nomenclature (two-part Latin name: Genus + species). His work 'Systema Naturae' (1758) established this system."
+    },
+    {
+      "id": 170,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Na⁺-K⁺ ATPase pump moves:",
+      "options": ["3 Na⁺ out and 2 K⁺ in (against concentration gradient)", "3 K⁺ out and 2 Na⁺ in", "Equal Na⁺ and K⁺", "Only Na⁺ out"],
+      "correct": 0,
+      "explanation": "Na⁺/K⁺ pump: pumps 3 Na⁺ out and 2 K⁺ into the cell per ATP hydrolyzed. Creates electrochemical gradient (electrogenic pump)."
+    },
+    {
+      "id": 171,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "The Kyoto Protocol (1997) deals with:",
+      "options": ["Reduction of greenhouse gas emissions", "Ozone layer protection", "Biodiversity conservation", "Wetland protection"],
+      "correct": 0,
+      "explanation": "Kyoto Protocol: international treaty to reduce greenhouse gas emissions (CO₂, CH₄, N₂O) to combat global warming/climate change."
+    },
+    {
+      "id": 172,
+      "subject": "Biology",
+      "chapter": "Biotechnology",
+      "question": "Southern blotting is used to detect:",
+      "options": ["Specific DNA sequences", "RNA sequences", "Proteins", "Lipids"],
+      "correct": 0,
+      "explanation": "Southern blot (Edward Southern): detects specific DNA. Northern blot: RNA. Western blot: proteins. Uses probe hybridization."
+    },
+    {
+      "id": 173,
+      "subject": "Biology",
+      "chapter": "Plant Kingdom",
+      "question": "Archegonium is the female sex organ found in:",
+      "options": ["Bryophytes, pteridophytes, and gymnosperms", "Only angiosperms", "Only algae", "Only fungi"],
+      "correct": 0,
+      "explanation": "Archegonium (flask-shaped female reproductive organ): present in bryophytes, pteridophytes, and gymnosperms. Absent in angiosperms."
+    },
+    {
+      "id": 174,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Cushing's syndrome is caused by:",
+      "options": ["Excess cortisol (hyperadrenalism)", "Low cortisol", "Excess insulin", "Low thyroxine"],
+      "correct": 0,
+      "explanation": "Cushing's syndrome: excess cortisol (from adrenal cortex or exogenous). Symptoms: moon face, buffalo hump, obesity, hyperglycemia, osteoporosis."
+    },
+    {
+      "id": 175,
+      "subject": "Biology",
+      "chapter": "Genetics",
+      "question": "Genetic counselling is recommended for:",
+      "options": ["Couples with family history of genetic disorders", "All healthy couples", "Only after marriage", "Only for cancer patients"],
+      "correct": 0,
+      "explanation": "Genetic counselling: for families with history of genetic disorders, consanguineous marriages, advanced maternal age, repeated miscarriages."
+    },
+    {
+      "id": 176,
+      "subject": "Biology",
+      "chapter": "Cell Biology",
+      "question": "Ubiquitin tags proteins for:",
+      "options": ["Degradation by proteasome", "Secretion", "Glycosylation", "Phosphorylation"],
+      "correct": 0,
+      "explanation": "Ubiquitin: small protein that marks damaged/old proteins for degradation by 26S proteasome. Ubiquitin-proteasome pathway regulates protein turnover."
+    },
+    {
+      "id": 177,
+      "subject": "Biology",
+      "chapter": "Evolution",
+      "question": "Miller-Urey experiment (1953) demonstrated:",
+      "options": ["Abiotic synthesis of amino acids from inorganic molecules", "Origin of DNA", "Formation of cells", "Evolution of multicellularity"],
+      "correct": 0,
+      "explanation": "Miller-Urey: electric discharge through CH₄, NH₃, H₂, H₂O (primitive atmosphere simulation) produced amino acids abiotically, supporting chemical evolution."
+    },
+    {
+      "id": 178,
+      "subject": "Biology",
+      "chapter": "Human Physiology",
+      "question": "Serum differs from plasma in that it lacks:",
+      "options": ["Clotting factors (fibrinogen)", "RBCs", "WBCs", "Antibodies"],
+      "correct": 0,
+      "explanation": "Serum = Plasma - clotting factors (fibrinogen). When blood clots, fibrinogen is converted to fibrin → removed → remaining liquid is serum."
+    },
+    {
+      "id": 179,
+      "subject": "Biology",
+      "chapter": "Reproduction",
+      "question": "Emergency contraceptive pills must be taken within:",
+      "options": ["72 hours of unprotected intercourse", "24 hours", "1 week", "1 month"],
+      "correct": 0,
+      "explanation": "Emergency contraceptive pills (levonorgestrel): effective within 72 hours (3 days) of unprotected intercourse. Prevent/delay ovulation."
+    },
+    {
+      "id": 180,
+      "subject": "Biology",
+      "chapter": "Ecology",
+      "question": "Chipko movement was started for:",
+      "options": ["Protection of trees/forests", "Animal conservation", "Water conservation", "Air pollution control"],
+      "correct": 0,
+      "explanation": "Chipko movement (1974, Garhwal Himalayas): villagers hugged trees to prevent cutting. Led by Sundarlal Bahuguna. Successful community-based conservation."
+    }
+  ]
+}

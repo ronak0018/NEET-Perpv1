@@ -54,7 +54,9 @@ export default function NoteDetail() {
             <span className="tag">{note.subject}</span>
           </div>
         </div>
-
+        <div style={{ display: "flex", gap: "0.5rem" }}>
+          <button className="btn btn-danger" onClick={handleDelete}>Delete</button>
+        </div>
       </div>
 
       <div className="note-tabs" style={{ display: "flex", gap: "0.3rem", flexWrap: "wrap", marginBottom: "1.5rem", borderBottom: "2px solid #e0e0e0", paddingBottom: "0.5rem" }}>

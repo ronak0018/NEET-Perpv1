@@ -16,7 +16,7 @@ export default function Login({ onLogin }) {
     try {
       const res = await axios.post(`${API_BASE}/auth/login`, { username, password });
       if (res.data.success) {
-        onLogin(res.data.username);
+        onLogin(res.data.username, res.data.role);
       }
     } catch {
       setError("Invalid username or password");

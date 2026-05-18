@@ -10,6 +10,7 @@ import DetailedStudy from "./pages/DetailedStudy.jsx";
 import MasterNotes from "./pages/MasterNotes.jsx";
 import Admin from "./pages/Admin.jsx";
 import Login from "./pages/Login.jsx";
+import PredictedQuiz from "./pages/PredictedQuiz.jsx";
 import { trackActivity } from "./api";
 import "./App.css";
 
@@ -24,8 +25,9 @@ function Navbar({ user, onLogout }) {
       </Link>
       <div className="navbar-links">
         <Link to="/quiz" className={isActive("/quiz")}>Quiz</Link>
+        <Link to="/predicted-quiz" className={isActive("/predicted-quiz")}>Predicted Quiz</Link>
         <Link to="/exam" className={isActive("/exam")}>Exam</Link>
-        <Link to="/notes" className={isActive("/notes")}>Short Notes</Link>
+        <Link to="/notes" className={isActive("/notes")}>Notes</Link>
         <Link to="/master-notes" className={isActive("/master-notes")}>Master Notes</Link>
         <Link to="/study" className={isActive("/study")}>Study</Link>
       </div>
@@ -48,19 +50,46 @@ function PageTracker() {
 
 function App() {
   const [user, setUser] = useState(() => localStorage.getItem("neetpg_user") || "");
+  const [role, setRole] = useState(() => localStorage.getItem("neetpg_role") || "full");
 
-  const handleLogin = (username) => {
+  const handleLogin = (username, userRole) => {
     localStorage.setItem("neetpg_user", username);
+    localStorage.setItem("neetpg_role", userRole || "full");
     setUser(username);
+    setRole(userRole || "full");
   };
 
   const handleLogout = () => {
     localStorage.removeItem("neetpg_user");
+    localStorage.removeItem("neetpg_role");
     setUser("");
+    setRole("full");
   };
 
   if (!user) {
     return <Login onLogin={handleLogin} />;
+  }
+
+  if (role === "exam_only") {
+    return (
+      <BrowserRouter>
+        <div className="app">
+          <nav className="navbar">
+            <span className="navbar-brand">🩺 NEET PG Exam</span>
+            <div className="navbar-user">
+              <span className="navbar-username">👤 {user}</span>
+              <button className="navbar-logout" onClick={handleLogout}>Logout</button>
+            </div>
+          </nav>
+          <PageTracker />
+          <div className="container">
+            <Routes>
+              <Route path="*" element={<Exam />} />
+            </Routes>
+          </div>
+        </div>
+      </BrowserRouter>
+    );
   }
 
   return (
@@ -72,6 +101,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/quiz" element={<Quiz />} />
+            <Route path="/predicted-quiz" element={<PredictedQuiz />} />
             <Route path="/exam" element={<Exam />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/notes/new" element={<NoteForm />} />

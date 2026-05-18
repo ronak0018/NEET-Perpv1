@@ -8,6 +8,7 @@ from app.routes.detailed_study import router as detailed_study_router
 from app.routes.master_notes import router as master_notes_router
 from app.routes.admin import router as admin_router
 from app.routes.auth import router as auth_router
+from app.routes.predicted_quiz import router as predicted_quiz_router
 
 app = FastAPI(title="NEET PG Prep", version="1.0.0")
 
@@ -47,3 +48,4 @@ app.include_router(detailed_study_router)
 app.include_router(master_notes_router)
 app.include_router(admin_router)
 app.include_router(auth_router)
+app.include_router(predicted_quiz_router)
