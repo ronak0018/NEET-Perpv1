@@ -25,7 +25,7 @@ def _load_set(set_id: str):
     if set_id not in _cache:
         path = os.path.join(DATA_DIR, SET_FILES[set_id])
         with open(path, "r", encoding="utf-8") as f:
-            _cache[set_id] = json.load(f)
+            _cache[set_id] = json.loads(f.read(), strict=False)
     return _cache[set_id]
 
 
